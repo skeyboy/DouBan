@@ -1,0 +1,18 @@
+
+/* Class = "IBUIBarButtonItem"; title = "频道"; ObjectID = "8hb-3B-qof"; */
+"8hb-3B-qof.title" = "频道";
+
+/* Class = "IBUIBarButtonItem"; title = "随机穿越"; ObjectID = "8ni-Cc-EbR"; */
+"8ni-Cc-EbR.title" = "随机穿越";
+
+/* Class = "IBUINavigationItem"; title = "频道"; ObjectID = "ReY-lU-906"; */
+"ReY-lU-906.title" = "频道";
+
+/* Class = "IBUIBarButtonItem"; title = "返回"; ObjectID = "Xj3-Jf-zWe"; */
+"Xj3-Jf-zWe.title" = "返回";
+
+/* Class = "IBUILabel"; text = "title"; ObjectID = "Yas-is-b28"; */
+"Yas-is-b28.text" = "title";
+
+/* Class = "IBUITableViewController"; title = "频道"; ObjectID = "wII-GU-Uh5"; */
+"wII-GU-Uh5.title" = "频道";

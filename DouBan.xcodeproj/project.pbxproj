@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AD2A26019F8D2AC00417DBE /* DouBanChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD2A25F19F8D2AC00417DBE /* DouBanChannelsViewController.swift */; };
 		5AD728CB19F7A2D9008546C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728CA19F7A2D9008546C1 /* AppDelegate.swift */; };
 		5AD728CD19F7A2D9008546C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728CC19F7A2D9008546C1 /* ViewController.swift */; };
 		5AD728D019F7A2D9008546C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD728CE19F7A2D9008546C1 /* Main.storyboard */; };
 		5AD728D219F7A2D9008546C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD728D119F7A2D9008546C1 /* Images.xcassets */; };
 		5AD728DE19F7A2D9008546C1 /* DouBanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728DD19F7A2D9008546C1 /* DouBanTests.swift */; };
+		5AD728E919F7A45B008546C1 /* DouBanConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728E819F7A45B008546C1 /* DouBanConstant.swift */; };
+		5AD728EF19F7A584008546C1 /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728EA19F7A584008546C1 /* HTTPRequestSerializer.swift */; };
+		5AD728F019F7A584008546C1 /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728EB19F7A584008546C1 /* HTTPResponseSerializer.swift */; };
+		5AD728F119F7A584008546C1 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728EC19F7A584008546C1 /* HTTPTask.swift */; };
+		5AD728F219F7A584008546C1 /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728ED19F7A584008546C1 /* HTTPUpload.swift */; };
+		5AD728F419F7A749008546C1 /* DouBanHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728F319F7A749008546C1 /* DouBanHomeViewController.swift */; };
+		5AD728F619F7A8C0008546C1 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728F519F7A8C0008546C1 /* UIImageView+extension.swift */; };
+		5AD728F819F7AEA9008546C1 /* DouBanHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD728F719F7AEA9008546C1 /* DouBanHomeCell.swift */; };
+		5AD728FA19F7E9DB008546C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD728F919F7E9DB008546C1 /* QuartzCore.framework */; };
+		5AD7290019F7EF94008546C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD728FF19F7EF94008546C1 /* AVFoundation.framework */; };
+		5AD7290219F7F036008546C1 /* AVAudioton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7290119F7F036008546C1 /* AVAudioton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AD2A25E19F8BA5300417DBE /* DouBan-Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DouBan-Bridge-Header.h"; sourceTree = "<group>"; };
+		5AD2A25F19F8D2AC00417DBE /* DouBanChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouBanChannelsViewController.swift; sourceTree = "<group>"; };
+		5AD2A26119F8E84400417DBE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		5AD728C519F7A2D9008546C1 /* DouBan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouBan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD728C919F7A2D9008546C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD728CA19F7A2D9008546C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +49,18 @@
 		5AD728D719F7A2D9008546C1 /* DouBanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouBanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD728DC19F7A2D9008546C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD728DD19F7A2D9008546C1 /* DouBanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanTests.swift; sourceTree = "<group>"; };
+		5AD728E819F7A45B008546C1 /* DouBanConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouBanConstant.swift; sourceTree = "<group>"; };
+		5AD728EA19F7A584008546C1 /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		5AD728EB19F7A584008546C1 /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		5AD728EC19F7A584008546C1 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		5AD728ED19F7A584008546C1 /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		5AD728EE19F7A584008546C1 /* SwiftHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftHTTP.h; sourceTree = "<group>"; };
+		5AD728F319F7A749008546C1 /* DouBanHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouBanHomeViewController.swift; sourceTree = "<group>"; };
+		5AD728F519F7A8C0008546C1 /* UIImageView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		5AD728F719F7AEA9008546C1 /* DouBanHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouBanHomeCell.swift; sourceTree = "<group>"; };
+		5AD728F919F7E9DB008546C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5AD728FF19F7EF94008546C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5AD7290119F7F036008546C1 /* AVAudioton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD7290019F7EF94008546C1 /* AVFoundation.framework in Frameworks */,
+				5AD728FA19F7E9DB008546C1 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +86,9 @@
 		5AD728BC19F7A2D9008546C1 = {
 			isa = PBXGroup;
 			children = (
+				5AD2A25E19F8BA5300417DBE /* DouBan-Bridge-Header.h */,
+				5AD728FF19F7EF94008546C1 /* AVFoundation.framework */,
+				5AD728F919F7E9DB008546C1 /* QuartzCore.framework */,
 				5AD728C719F7A2D9008546C1 /* DouBan */,
 				5AD728DA19F7A2D9008546C1 /* DouBanTests */,
 				5AD728C619F7A2D9008546C1 /* Products */,
@@ -77,9 +109,20 @@
 			children = (
 				5AD728CA19F7A2D9008546C1 /* AppDelegate.swift */,
 				5AD728CC19F7A2D9008546C1 /* ViewController.swift */,
+				5AD7290119F7F036008546C1 /* AVAudioton.swift */,
+				5AD728F319F7A749008546C1 /* DouBanHomeViewController.swift */,
 				5AD728CE19F7A2D9008546C1 /* Main.storyboard */,
+				5AD2A25F19F8D2AC00417DBE /* DouBanChannelsViewController.swift */,
+				5AD728F719F7AEA9008546C1 /* DouBanHomeCell.swift */,
 				5AD728D119F7A2D9008546C1 /* Images.xcassets */,
 				5AD728C819F7A2D9008546C1 /* Supporting Files */,
+				5AD728EA19F7A584008546C1 /* HTTPRequestSerializer.swift */,
+				5AD728EB19F7A584008546C1 /* HTTPResponseSerializer.swift */,
+				5AD728EC19F7A584008546C1 /* HTTPTask.swift */,
+				5AD728ED19F7A584008546C1 /* HTTPUpload.swift */,
+				5AD728EE19F7A584008546C1 /* SwiftHTTP.h */,
+				5AD728F519F7A8C0008546C1 /* UIImageView+extension.swift */,
+				5AD728E819F7A45B008546C1 /* DouBanConstant.swift */,
 			);
 			path = DouBan;
 			sourceTree = "<group>";
@@ -208,8 +251,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD7290219F7F036008546C1 /* AVAudioton.swift in Sources */,
+				5AD2A26019F8D2AC00417DBE /* DouBanChannelsViewController.swift in Sources */,
+				5AD728F119F7A584008546C1 /* HTTPTask.swift in Sources */,
+				5AD728F619F7A8C0008546C1 /* UIImageView+extension.swift in Sources */,
 				5AD728CD19F7A2D9008546C1 /* ViewController.swift in Sources */,
+				5AD728F419F7A749008546C1 /* DouBanHomeViewController.swift in Sources */,
+				5AD728F219F7A584008546C1 /* HTTPUpload.swift in Sources */,
+				5AD728EF19F7A584008546C1 /* HTTPRequestSerializer.swift in Sources */,
 				5AD728CB19F7A2D9008546C1 /* AppDelegate.swift in Sources */,
+				5AD728E919F7A45B008546C1 /* DouBanConstant.swift in Sources */,
+				5AD728F019F7A584008546C1 /* HTTPResponseSerializer.swift in Sources */,
+				5AD728F819F7AEA9008546C1 /* DouBanHomeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +289,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5AD728CF19F7A2D9008546C1 /* Base */,
+				5AD2A26119F8E84400417DBE /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -247,8 +301,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -260,7 +314,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -280,7 +334,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1C00B6BD-177C-412E-89EF-B5999C30CAF2";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DouBan-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,8 +346,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -303,7 +359,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -316,7 +372,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1C00B6BD-177C-412E-89EF-B5999C30CAF2";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DouBan-Bridge-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -328,8 +387,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,8 +404,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -397,6 +468,7 @@
 				5AD728E319F7A2D9008546C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AD728E419F7A2D9008546C1 /* Build configuration list for PBXNativeTarget "DouBanTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +477,7 @@
 				5AD728E619F7A2D9008546C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
